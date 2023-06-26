@@ -1,0 +1,62 @@
+/* selector {속성명: 속성값;}  */
+h3 {
+    color:#7777;
+    background-color: pink;
+}
+
+
+p{
+    color:blueviolet
+}
+
+/* # => id */
+#one {
+    border-style: dashed;
+    margin-bottom: 50px;
+}
+
+#two{
+    border-style: double;
+    padding-left: 50px;
+    font-family: Literata;
+}
+
+/*  . => class */
+.korean{
+    border-style: dotted;
+    margin: 10px 20px 30px 40px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+div {
+    /* border: solid 1px red;
+    padding: 5px;
+    margin: 10px;
+    /* display: inline; */
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 100px; */
+    /* display:none; */
+    /* position: relative; */
+    /* position: fixed; */
+    /* left: 100px; */ 
+}
+
+a{
+    /* display: block; */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border: solid 2px;
+    margin: 5px;
+}
+
+.flex-container{
+    display:flex;
+    background-color: beige;
+    justify-content: right;
+}
